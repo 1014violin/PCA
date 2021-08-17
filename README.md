@@ -21,7 +21,7 @@ orig <- read.table("orig_dataset.txt", sep = "\t", row.names = 1, header = T)
 projected <- read.table("projected_dataset.txt", sep = "\t", row.names = 1, header = T)
 ```
 
-![Original Data Input Format](https://timesofindia.indiatimes.com/photo/67586673.cms)
+![Original Data Input Format](https://github.com/1014violin/PCA/blob/main/orig_data.png)
 
 ## Set-up Variables
 
