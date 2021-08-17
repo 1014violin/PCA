@@ -20,9 +20,6 @@ filename_prefix = "GBM_proj"
 orig <- read.table("orig_dataset.txt", sep = "\t", row.names = 1, header = T)
 projected <- read.table("projected_dataset.txt", sep = "\t", row.names = 1, header = T)
 ```
-## Input Data .txt file formats
-![Original Data Input Format](https://github.com/1014violin/PCA/blob/main/orig_data_3.png)
-![Projected Data Input Format](https://github.com/1014violin/PCA/blob/main/projected_data2.png)
 
 ## Set-up Variables
 
@@ -37,6 +34,11 @@ run_match.cols <- T
 
 colNames = c("log2FoldChange", "signed.log.p") #used for run_pca()
 ```
+
+## Input Data .txt file formats
+![Original Data Input Format](https://github.com/1014violin/PCA/blob/main/orig_data_3.png)
+![Projected Data Input Format](https://github.com/1014violin/PCA/blob/main/projected_data2.png)
+
 ## Functions
 ```r
 #checks to see if columns are the same 
@@ -64,7 +66,15 @@ make_plots(de_pcaa, all_scoress, all_projected_scoress, datasetss)
 
 ## Resulting Plots
 
-
+* Original Data: PC1 v. PC2
+* Volcano Plot: Original Data
+* Original Data: PC1 vs. log2FoldChange
+* Projected Data: PC1 v. PC2
+* PC1 Scores v. PC1 Projected Scores
+* Volcano Plot: Projected Data
+* Original Data: PC1 vs. Signed.log.p
+* Projected Data: PC1 vs. Signed.log.p
+* Projected Data: PC1 vs. log2FoldChange
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
