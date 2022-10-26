@@ -14,7 +14,7 @@ library(base)
 #----------set up before running----------
 working_dir<-"/Users/alexzandramorris/Desktop/Work/pca_project"
 setwd(working_dir)
-filename_prefix = "GBM_proj"
+filename_prefix = "Proj"
 orig <- read.table("DE PT-XG 20210423.txt", sep = "\t", row.names = 1, header = T)
 projected <- read.table("DE PTOPCNPC_PT-XG 20210523.txt", sep = "\t", row.names = 1, header = T)
 projected_dataset <- T
