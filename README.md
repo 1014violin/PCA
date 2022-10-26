@@ -16,7 +16,7 @@ install.packages("base")
 ```r
 working_dir<-"/Users/....."
 setwd(working_dir)
-filename_prefix = "GBM_proj"
+filename_prefix = "Proj"
 orig <- read.table("orig_dataset.txt", sep = "\t", row.names = 1, header = T)
 projected <- read.table("projected_dataset.txt", sep = "\t", row.names = 1, header = T)
 ```
