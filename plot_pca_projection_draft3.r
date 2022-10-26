@@ -15,8 +15,8 @@ library(base)
 working_dir<-"/Users/alexzandramorris/Desktop/Work/pca_project"
 setwd(working_dir)
 filename_prefix = "GBM_proj"
-orig <- read.table("Nathanson DE PT-XG 20210423.txt", sep = "\t", row.names = 1, header = T)
-projected <- read.table("Nathanson DE PTOPCNPC_PT-XG 20210523.txt", sep = "\t", row.names = 1, header = T)
+orig <- read.table("DE PT-XG 20210423.txt", sep = "\t", row.names = 1, header = T)
+projected <- read.table("DE PTOPCNPC_PT-XG 20210523.txt", sep = "\t", row.names = 1, header = T)
 projected_dataset <- T
 run_match.rows <- T
 run_match.cols <- T
